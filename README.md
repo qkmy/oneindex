@@ -1,13 +1,15 @@
 # OneIndex
 Onedrive Directory Index
-
+感谢原作者donwa 
+仅仅修改了jscdn服务器为cloudflare，让手机访问更轻松 
+（cdn.jsdelivr.net拒绝手机访问请求，md）
 ## 功能：
 不占用服务器空间，不走服务器流量，  
 
 直接列出 OneDrive 目录，文件直链下载。  
 
 ## Demo
-[https://xn.tn](https://xn.tn)  
+自己玩去，莫得Demo
 
 ## 安装运行
 
