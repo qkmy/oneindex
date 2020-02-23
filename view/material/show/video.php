@@ -3,7 +3,7 @@
 $item['thumb'] = onedrive::thumbnail($item['path']);
 ?>
 <?php view::begin('content');?>
-<link class="dplayer-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css">
+<link class="dplayer-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.25.0/DPlayer.min.css">
 <div class="mdui-container-fluid">
 	<br>
 	<div id="dplayer"></div>
@@ -19,7 +19,7 @@ $item['thumb'] = onedrive::thumbnail($item['path']);
 	</div>
 </div>
 <?php if(pathinfo($item["name"], PATHINFO_EXTENSION) === 'flv') { e('<script src="https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js"></script>'); } ?>
-<script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.25.0/DPlayer.min.js"></script>
 <script>
 const dp = new DPlayer({
 	container: document.getElementById('dplayer'),
